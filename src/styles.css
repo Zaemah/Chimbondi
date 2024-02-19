@@ -3,10 +3,14 @@ body {
     background: #f0f0f0f0; 
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-
+    margin: 0;
+    padding:0;
 }
 
-
+.container{
+    max-width: 2500px;
+    margin: 0 auto;
+}
 .header {
     background: #40E0D0; 
     color: white;
@@ -32,6 +36,7 @@ main {
 section {
     padding: 100px 0;
     margin: 0 auto;
+    max-width: 2000px;
 
     
 }
@@ -74,6 +79,7 @@ h2{
 
  .about{
     display: block;
+    margin: 0 auto;
  }
     }
 
