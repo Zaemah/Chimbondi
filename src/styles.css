@@ -54,7 +54,8 @@ h2{
 .about{
     display: flex;
 }
-.aboutInfo p{
+.aboutInfo p,
+li{
     font-size: 20px;
     opacity: 0.6;
 }
@@ -210,6 +211,29 @@ h2{
     font-weight: 400;
     text-transform: uppercase;
 }
+
+.btn-branding {
+    background: #40E0D0;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+.btn-branding-outline {
+    color: #40E0D0;
+    border: 1px solid #40E0D0;
+    border-radius: 4px;
+    font-size: 18px;
+    text-decoration: none;
+    line-height: 27px;
+    padding: 15px 30px;
+}
+.btn-branding-outline:hover {
+    background: blue;
+    color: white;
+}
 .team h1 {
     color:#40E0D0;
 }
@@ -297,7 +321,25 @@ h2{
 .team .owl-dot.active {
     background-color: #272044;
 }
-
+.otherProducts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+.mining,
+.piping{
+    display: flex;
+}
+@media (max-width: 575px) {
+    .otherProducts {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .mining,
+    .piping{
+        display: block;
+    }
+}
 .contact {
     text-align: center;
     margin: 0 auto;
@@ -315,17 +357,18 @@ h2{
     }
 }
 
+
 .contact .contact-info a {
-    color: #272044;
+    color: black;
 }
 
 .contact .contact-info a:hover {
-    color: #272044;
+    color: black;
 }
 
 .contact .contact-info i {
     width: 30px;
-    color: #272044;
+    color: black;
 }
 
 .contact .social {
@@ -341,17 +384,17 @@ h2{
     padding: 1px 0;
     text-align: center;
     font-size: 22px;
-    border: 1px solid #272044;
+    border: 1px solid black;
     
 
 }
 
 .contact .social a i {
-    color: #272044;
+    color: black;
 }
 
 .contact .social a:hover {
-    background: #272044;
+    background: black;
 }
 
 .contact .social a:hover i {
