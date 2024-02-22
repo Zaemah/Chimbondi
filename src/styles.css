@@ -41,12 +41,12 @@ section {
     
 }
 h1{
-    font-size: 45px;
+    
     text-decoration:overline;
     opacity: 0.7;
 }
 h2{
-    font-size: 35px;
+    
     text-decoration: solid;
     text-transform: uppercase;
     opacity: 0.3;
@@ -80,13 +80,17 @@ h2{
  .about{
     display: flex;
     flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
  }
+ 
+ 
     }
 
 
 
 .services {
-    padding: 60px 0;
+    
     text-align: center;
     background: #ffffff;
 }
@@ -254,7 +258,7 @@ h2{
 }
 
 .team .team-item .team-img {
-    width: 400px;
+    width: 300px;
     border: 10px solid rgba(256, 256, 256, .1);
     margin: 0 auto;
 }
