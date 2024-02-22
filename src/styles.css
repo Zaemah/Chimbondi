@@ -20,14 +20,7 @@ body {
     align-items: center;
 }
 
-nav ul {
-    display: flex;
-    list-style-type: none;
-}
 
-nav ul li {
-    margin-right: 20px;
-}
 
 main {
     padding: 20px;
@@ -84,8 +77,18 @@ li{
     text-align: center;
     margin: 0 auto;
  }
- 
- 
+ .container{
+    max-width: 1200;
+ }
+ .section{
+    max-width: 1000;
+ }
+ h1{
+    font-size: 30px;
+ }
+ img{
+    width: 250px;
+}
     }
 
 
@@ -338,8 +341,16 @@ li{
     .mining,
     .piping{
         display: block;
+        text-align: center;
+        margin: 0 auto;
     }
-}
+    ul {
+        list-style: none;
+        
+    }
+        
+    }
+
 .contact {
     text-align: center;
     margin: 0 auto;
