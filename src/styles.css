@@ -69,7 +69,7 @@ li{
     margin: 10px;
     }
 
-    @media (max-width: 575px){
+    @media (max-width: 600px){
 
  .about{
     display: flex;
@@ -153,7 +153,7 @@ li{
     width: 200px;
     height: 200px;
 }
-.services .single-service h3 {
+.services .single-service h4 {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -328,7 +328,11 @@ li{
 .piping{
     display: flex;
 }
-@media (max-width: 575px) {
+@media (max-width: 600px) {
+    .services .section-headerTwo {
+        text-align: center;
+    }
+   
     .otherProducts {
         display: grid;
         grid-template-columns: 1fr;
@@ -344,7 +348,7 @@ li{
         list-style: none;
         
     }
-        
+    
     }
 
 .contact {
@@ -358,7 +362,7 @@ li{
     font-weight: 300;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 600px) {
     .contact .contact-info p {
         font-size: 16px;
     }
