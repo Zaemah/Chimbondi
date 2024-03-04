@@ -8,7 +8,7 @@ body {
 }
 
 .container{
-    max-width: 2500px;
+    max-width: 6000px;
     margin: 0 auto;
 }
 .header {
@@ -28,9 +28,10 @@ main {
 }
 
 section {
+      margin: 0 auto;
     padding: 100px 0;
-    margin: 0 auto;
-    max-width: 2000px;
+
+
 
     
 }
@@ -288,7 +289,7 @@ li{
 }
 
 .team .team-item .team-img {
-    width: 300px;
+    width: 200px;
     border: 10px solid rgba(256, 256, 256, .1);
     margin: 0 auto;
 }
@@ -357,6 +358,10 @@ li{
     ul {
         list-style: none;
         
+    }
+    .service-icon img{
+        width: 150px;
+        height: 150px;
     }
     
     }
