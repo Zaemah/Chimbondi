@@ -87,6 +87,11 @@ li{
  img{
     width: 250px;
 }
+
+.about{
+    
+    box-shadow: none;
+}
     }
 
 
