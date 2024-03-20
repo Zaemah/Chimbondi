@@ -79,6 +79,7 @@ li{
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
+    box-shadow: none;
  }
  
  h1{
@@ -88,10 +89,7 @@ li{
     width: 250px;
 }
 
-.about{
-    
-    box-shadow: none;
-}
+
     }
 
 
